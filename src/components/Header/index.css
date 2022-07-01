@@ -1,0 +1,27 @@
+.header-container {
+  position: absolute;
+  margin-top: 10px;
+  top: 0;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-img {
+  margin-top: 10px;
+  margin-left: 40px;
+  height: 58%;
+  width: 82%;
+}
+
+.nav-bar-list {
+  display: flex;
+  gap: 90px;
+  padding-right: 70px;
+  list-style: none;
+}
+.nav-bar-list a {
+  color: black;
+  text-decoration: none;
+}
