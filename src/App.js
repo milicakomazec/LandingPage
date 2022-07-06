@@ -3,6 +3,9 @@ import EmailForm from "./components/EmailForm/EmailForm";
 import Header from "./components/Header/Header";
 import Feature from "./components/Feature/Feature";
 import "./App.css";
+import Video from "./components/Video/Video";
+import Footer from "./components/Footer/Footer";
+import ProductCard from "./components/ProductCard/ProductCard";
 
 function App() {
   return (
@@ -13,10 +16,7 @@ function App() {
         icon="icon1"
         title="Premium Materials"
         desc="Our trombones use the shiniest brass which is sourced locally.
-        This will increase the longevity of your purchase.
-      
-      
-              "
+        This will increase the longevity of your purchase."
       />
       <Feature
         icon="icon2"
@@ -32,6 +32,9 @@ function App() {
         or faults and we will check and test the pitch of your
         instrument."
       />
+      <Video />
+      <ProductCard />
+      <Footer />
     </div>
   );
 }
