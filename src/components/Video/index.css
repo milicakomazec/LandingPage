@@ -1,0 +1,6 @@
+.video-container {
+  height: 300px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
