@@ -1,0 +1,27 @@
+.email-form-container {
+  align-items: center;
+  margin-top: 73px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.email-input {
+  margin-top: 20px;
+  width: 275px;
+  height: 25px;
+}
+
+.email-btn-submit {
+  margin-top: 10px;
+  width: 150px;
+  height: 30px;
+  background-color: #f1c40f;
+  font-weight: 900;
+  font-size: 16px;
+  border: none;
+}
