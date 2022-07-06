@@ -1,0 +1,17 @@
+.feature-container {
+  display: flex;
+  margin: 0 210px;
+  padding-top: 50px;
+  width: 900px;
+}
+.feature-text-wrapper {
+  margin-left: 20px;
+}
+.feature-title {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.feature-icon {
+  width: 10%;
+}
